@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio-web-projects</title>
+        <link href="style.css" rel ="stylesheet">
+    </head>
+    <body>
+        <h1 id="topics">Projects</h1>
+        <div class="links">
+            <a href="./relevant_skills.html">Experience/Relavent Skills</a>
+            <a href="./sites_link.html">Recommended Sites/Technology</a>
+            <a href="./cover.html">About Me</a>
+        </div>
+        <p>One of the projects I have done was a group project with 4 people including myself about diabetes. We found a dataset that we want to work with, which was 
+            about diabetes and what factor increases the chances of having diabetes. For the project, we used 4 machine learning algorithms, which are:</p>
+        <ul>
+            <li>Logistic Regression</li>
+            <li>Naive Bayes</li>
+            <li>Decision Trees</li>
+            <li>Random Forest(The one I focused one)</li>
+        </ul>
+        <p>For each algorithm, we all had to use oversampling, undersampling, SMOTE, and balancing weight due to their being more people who don't have diabetes than having diabetes. 
+            Our goal was to use those 4 methods on each algorithm and see which perform the best results. To clarify, every machine learning algorithm works 
+            different depending on the dataset. Some would perform better than the other and that sames goes for the method. Depending on the dataset, some method like oversmapling 
+            or undersampling might work better than SMOTE or balancing weight, and vice versa. To compare preformance, we used classification reports, confusion matrix, and score 
+            to see which has a better recall score and higher true positive and true negative.</p>
+        <div class="gallery">
+            <img src="score.jpg"/>
+            <div class="desc">Score Format</div>
+        </div>
+        <div class="gallery">
+            <img src="matrix.jpg"/>
+            <div class="desc">Confusion Matrix Format</div>
+        </div>
+        <div class="gallery">
+            <img src="classification.jpg"/>
+            <div class="desc">Classification Report Format</div>
+        </div>
+        <p>Each method will output a classification report, confusion matrix, and score, so we can see which method suits this dataset the most. 
+            Once we find the best algorithm and method for this dataset, we made our own question, such as "does your diet increase your chance in getting diabetes", and use the best performing algorithm and method to produce our answer.</p>
+    </body>
+</html>
